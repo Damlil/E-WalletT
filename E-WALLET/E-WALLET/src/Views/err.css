@@ -1,0 +1,16 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.errBtn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.errDiv {
+    display: flex;
+    flex-direction: column;
+}

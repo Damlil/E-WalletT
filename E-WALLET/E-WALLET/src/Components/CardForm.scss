@@ -1,0 +1,69 @@
+label {
+    font-size: 10px;
+    opacity: 80%;
+}
+
+input {
+    padding: .5rem;
+}
+
+select {
+    padding: 0.5rem;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+
+
+    &__dateContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__date {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+
+    &__cvv {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+
+    &__buttom {
+        background-color: black;
+        color: white;
+        padding: 1rem;
+        border-radius: 8px;
+        margin-top: 1.5rem;
+    }
+
+    &__buttom__home {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: 1rem;
+        border-radius: 8px;
+        margin-top: 1.5rem;
+
+    }
+}
+
+.vendorInput {
+
+    &__select {
+        display: grid;
+        grid-template-areas: "select";
+        align-items: center;
+        position: relative;
+    }
+}
+.errText {
+
+    color: red;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}

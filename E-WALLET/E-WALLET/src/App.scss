@@ -1,0 +1,38 @@
+* {
+
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 8px;
+}
+header {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.newCardText {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  font-size: 10px;
+  color: #22222299;
+}
+.activeCard {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  font-size: 10px;
+  color: #22222299;
+}

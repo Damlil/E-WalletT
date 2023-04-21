@@ -1,0 +1,59 @@
+.newCard {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 340px;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #D0D0D0;
+    
+    
+    &__Logos {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__number {
+        font-size: 24px;   
+        text-align: center;
+        letter-spacing: 2px;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__personalInfo {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    &__cardholder {
+        font-size: 12px;
+        opacity: 80%;
+    }
+
+    &__name {
+        font-size: 15px;
+    }
+
+    &__date {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__valid {
+        font-size: 12px;
+        opacity: 80%;
+    }
+    
+    &__year { 
+        align-self: flex-end;
+
+}
+}
+

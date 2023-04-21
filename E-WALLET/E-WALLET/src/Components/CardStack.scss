@@ -1,0 +1,74 @@
+.theStack {
+    border: 2px solid green;
+    margin-top: 5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.activeCard {
+    text-align: center;
+
+}
+
+.active {
+    margin-bottom: 2rem;
+
+}
+
+.newStack {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 340px;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: -10rem;
+    position: relative;
+    z-index: 1;
+    background-color: #D0D0D0;
+
+
+}
+
+
+.activeButtom {
+    margin-top: 12rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 8px;
+
+}
+
+.logo {
+    height: 35px;
+  
+}
+
+.logNButton {
+    display: flex;
+}
+.delButton {
+    border: 2px solid black;
+    border-radius: 7px;
+    color: red;
+    background: none;
+    margin-left: .5rem;
+    width: 20px;
+    align-self: flex-start;
+
+}
+.activate {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    height: 20px;
+    border-radius: 7px;
+    margin-top: -.3rem;
+    background-color: grey;
+    padding: 0.2rem;
+    cursor: pointer;
+}
